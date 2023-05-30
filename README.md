@@ -1,4 +1,6 @@
-# AngularCrash
+# Angular Portfolio Demo
+
+Project section largely inspired from https://www.youtube.com/watch?v=3dHNOWTI7H8&feature=youtu.be
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
