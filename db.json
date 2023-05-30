@@ -1,0 +1,32 @@
+{
+  "Projects": [
+    {
+      "text": "APIrates",
+      "description": "Clicker game created with Node.js, Express, HTML, and CSS for a web development course.",
+      "link": "https://github.com/jdmar3-comp426/a99-apirates",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "text": "Dragon Cave",
+      "description": "Simple command line game",
+      "link": "https://github.com/luisgarcilazo/GenSpark-projects/tree/main/DragonCave",
+      "reminder": false,
+      "id": 2
+    },
+    {
+      "text": "Hangman",
+      "description": "Command line hangman game.",
+      "link": "https://github.com/luisgarcilazo/GenSpark-projects/tree/main/Hangman",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Guess the number",
+      "description": "Command line guess the number game",
+      "link": "https://github.com/luisgarcilazo/GenSpark-projects/tree/main/GuessTheNumber",
+      "reminder": false,
+      "id": 4
+    }
+  ]
+}

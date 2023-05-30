@@ -1,0 +1,10 @@
+<div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/" [ngClass]="this.router.url === '/' ? 'nav-link active' : 'nav-link'">Home</a></li>
+        <li class="nav-item"><a href="/projects" [ngClass]="this.router.url === '/projects' ? 'nav-link active' : 'nav-link'">Projects</a></li>
+        <li class="nav-item"><a href="/contact-me" [ngClass]="this.router.url === '/contact-me' ? 'nav-link active' : 'nav-link'">Contact Me</a></li>
+        <li class="nav-item"><a href="/about" [ngClass]="this.router.url === '/about' ? 'nav-link active' : 'nav-link'">About</a></li>
+      </ul>
+    </header>
+  </div>

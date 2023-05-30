@@ -1,0 +1,30 @@
+<form *ngIf="showAddProject" class="add-form" (ngSubmit)="onSubmit()">
+    <div class="d-flex flex-column" style="gap: 30px">
+        <div class="d-flex flex-row justify-content-between">
+            <label for="text">Project Name</label>
+            <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add Project Name" />
+        </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-between">
+                <label for="description">Description</label>
+                <input type="text" name="description" [(ngModel)]="description" id="description" placeholder="Add Project Description" />
+            </div>
+
+        </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-between">
+                <label for="link">Link</label>
+                <input type="text" name="link" [(ngModel)]="link" id="link" placeholder="Add link to Project" />
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-between">
+                <label for="reminder">Set Priority</label>
+                <input type="checkbox" [(ngModel)]="reminder" name="reminder" id="reminder" />
+            </div>
+
+        </div>
+        <input type="submit" value="Save Project" class="btn btn-secondary" />
+    </div>
+
+</form>
